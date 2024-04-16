@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:layout_marginVertical="16dp"
+        android:src="@drawable/logo"
+        android:id="@+id/logo_app_in_profile"
+        android:layout_width="135dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="135dp"/>
+    <LinearLayout
+        android:layout_below="@id/logo_app_in_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name_profile_et"
+            style="@style/EditTextStyle"
+            android:layout_height="57dp"
+            android:enabled="false"
+            android:hint="@string/name"
+            android:inputType="text" />
+
+
+        <EditText
+            android:id="@+id/phone_profile_et"
+            style="@style/EditTextStyle"
+            android:layout_height="57dp"
+            android:enabled="false"
+            android:hint="@string/phone"
+            android:inputType="phone" />
+
+
+        <EditText
+            android:id="@+id/address_profile_et"
+            style="@style/EditTextStyle"
+            android:layout_height="57dp"
+            android:enabled="false"
+            android:hint="@string/address"
+            android:inputType="text" />
+
+
+        <TextView
+            android:id="@+id/location_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_location"
+            android:textColor="@color/base"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/location_btn"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_location" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/save_profile_btn"
+                style="@style/ButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save" />
+
+
+            <Button
+                android:id="@+id/edit_profile_btn"
+                style="@style/ButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

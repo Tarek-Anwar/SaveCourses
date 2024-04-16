@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Save Courses</string>
+    <string name="not_courses_yet">Not Courses Yet !</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="course_name">Course Name</string>
+    <string name="save">Save</string>
+    <string name="description">Description Courses</string>
+    <string name="date_start_courses">Date Start Courses : </string>
+    <string name="date_end_courses">Date End Courses : </string>
+    <string name="id">Id : </string>
+    <string name="name">Enter Name</string>
+    <string name="phone">Enter Phone</string>
+    <string name="address">Enter Addres</string>
+    <string name="your_location">Your Location</string>
+    <string name="get_location">Get Location</string>
+    <string name="edit">Edit</string>
+    <string name="profile">Profile</string>
+</resources>

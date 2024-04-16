@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name_course_et"
+            style="@style/EditTextStyle"
+            android:layout_height="57dp"
+            android:drawableStart="@drawable/ic_name_course"
+            android:hint="@string/course_name"
+            android:inputType="text" />
+
+
+        <EditText
+            android:id="@+id/description_course_et"
+            style="@style/EditTextStyle"
+            android:layout_height="wrap_content"
+            android:hint="@string/description"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/date_start_courses_tv"
+            android:drawableStart="@drawable/ic_courses_start"
+            style="@style/EditTextStyle"
+            android:layout_height="57dp"
+            android:text="@string/date_start_courses"/>
+
+
+        <TextView
+            android:id="@+id/date_end_courses_tv"
+            android:drawableStart="@drawable/ic_courses_end"
+            style="@style/EditTextStyle"
+            android:layout_height="57dp"
+            android:text="@string/date_end_courses"/>
+
+
+
+        <Button
+            android:id="@+id/save_btn"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save" />
+
+    </LinearLayout>
+</ScrollView>
